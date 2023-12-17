@@ -39,17 +39,17 @@ export const Encryption = () => {
             className="z-10"
           />
         </div>
-
         <div className="Welcome-box px-[15px] py-[4px] z-[20px] border my-[20px] border-[#7042f88b] opacity-[0.9]">
           <h1 className="Welcome-text text-[12px]">Encryption</h1>
         </div>
+      </div>
+
         <div className="absolute z-[20] bottom-[10px] px-[5px]">
           <div className="cursive text-[20px] font-medium text-center text-gray-300">
             Secure your data with end-to-end encryption
           </div>
         </div>
-      </div>
-
+        
       <div className="w-full flex items-start justify-center absolute">
         <video
           src="/encryption.webm"
